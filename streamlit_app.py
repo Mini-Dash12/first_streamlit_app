@@ -39,7 +39,6 @@ except URLError as e:
         
 
 
-my_cur.execute("select * from fruit_load_list")
 
 streamlit.header("The fruit load list contains:")
 #snowflake-related functions
